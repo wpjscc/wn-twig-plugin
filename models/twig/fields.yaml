@@ -1,0 +1,21 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    # id:
+    #     label: id
+    #     disabled: true
+    #     span: auto
+    group:
+        label: group
+        span: auto
+    name: 
+        label: name
+        span: auto
+    source:
+        label: source
+        span: auto
+        type: codeeditor
+        size: huge
+        language: twig

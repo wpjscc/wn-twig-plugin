@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: 'wpjscc.twig::lang.models.twig.label'
+
+# Model Form Field configuration
+form: $/wpjscc/twig/models/twig/fields.yaml
+
+# Model Class name
+modelClass: Wpjscc\Twig\Models\Twig
+
+# Default redirect location
+defaultRedirect: wpjscc/twig/twigs
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: wpjscc/twig/twigs/update/:id
+    redirectClose: wpjscc/twig/twigs
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: wpjscc/twig/twigs
+    redirectClose: wpjscc/twig/twigs
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

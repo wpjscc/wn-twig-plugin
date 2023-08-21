@@ -1,0 +1,19 @@
+{
+    "name": "wpjscc/wn-twig-plugin",
+    "license": "MIT",
+    "type": "winter-plugin",
+    "authors": [
+        {
+            "name": "wpjscc",
+            "email": "wpjscc@gmail.com"
+        }
+    ],
+    "autoload": {
+    },
+    "require": {
+        "wpjscc/wn-json-plugin": "dev-master"
+    },
+    "extra": {
+        "installer-name": "twig"
+    }
+}
